@@ -9,14 +9,48 @@
 /* Begin PBXBuildFile section */
 		7C293DA61511249600BF5B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C293DA51511249600BF5B5E /* Foundation.framework */; };
 		7C293DAC1511249600BF5B5E /* JLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C293DAB1511249600BF5B5E /* JLTableViewController.m */; };
+		7C293DB9151124CD00BF5B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C293DB8151124CD00BF5B5E /* UIKit.framework */; };
+		7C293DBA151124CD00BF5B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C293DA51511249600BF5B5E /* Foundation.framework */; };
+		7C293DBC151124CD00BF5B5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C293DBB151124CD00BF5B5E /* CoreGraphics.framework */; };
+		7C293DC2151124CD00BF5B5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C293DC0151124CD00BF5B5E /* InfoPlist.strings */; };
+		7C293DC4151124CD00BF5B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C293DC3151124CD00BF5B5E /* main.m */; };
+		7C293DC8151124CD00BF5B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C293DC7151124CD00BF5B5E /* AppDelegate.m */; };
+		7C293DCB151124CD00BF5B5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C293DCA151124CD00BF5B5E /* ViewController.m */; };
+		7C293DCE151124CD00BF5B5E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C293DCC151124CD00BF5B5E /* ViewController.xib */; };
+		7C293DD4151124F700BF5B5E /* JLSectionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C293DD2151124F700BF5B5E /* JLSectionInfo.h */; };
+		7C293DD5151124F700BF5B5E /* JLSectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C293DD3151124F700BF5B5E /* JLSectionInfo.m */; };
+		7C293DD8151124FF00BF5B5E /* DefaultCellObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C293DD6151124FF00BF5B5E /* DefaultCellObject.h */; };
+		7C293DD9151124FF00BF5B5E /* DefaultCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C293DD7151124FF00BF5B5E /* DefaultCellObject.m */; };
+		7C293DDD1511290900BF5B5E /* JLHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C293DDB1511290900BF5B5E /* JLHeaderView.h */; };
+		7C293DDE1511290900BF5B5E /* JLHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C293DDC1511290900BF5B5E /* JLHeaderView.m */; };
+		7C293DDF15112FA300BF5B5E /* libJLTableViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C293DA21511249600BF5B5E /* libJLTableViewController.a */; };
+		7C293DE3151135B600BF5B5E /* JLTableViewController-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 7C293DE2151135B600BF5B5E /* JLTableViewController-Prefix.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C293DA21511249600BF5B5E /* libJLTableViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJLTableViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C293DA51511249600BF5B5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7C293DA91511249600BF5B5E /* JLTableViewController-Prefix.pch */ = {isa = PBXFileReference; path = "JLTableViewController-Prefix.pch"; sourceTree = "<group>"; };
-		7C293DAA1511249600BF5B5E /* JLTableViewController.h */ = {isa = PBXFileReference; path = JLTableViewController.h; sourceTree = "<group>"; };
+		7C293DAA1511249600BF5B5E /* JLTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTableViewController.h; sourceTree = "<group>"; };
 		7C293DAB1511249600BF5B5E /* JLTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTableViewController.m; sourceTree = "<group>"; };
+		7C293DB6151124CD00BF5B5E /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C293DB8151124CD00BF5B5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C293DBB151124CD00BF5B5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C293DBF151124CD00BF5B5E /* SampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleApp-Info.plist"; sourceTree = "<group>"; };
+		7C293DC1151124CD00BF5B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C293DC3151124CD00BF5B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C293DC5151124CD00BF5B5E /* SampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		7C293DC6151124CD00BF5B5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C293DC7151124CD00BF5B5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C293DC9151124CD00BF5B5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7C293DCA151124CD00BF5B5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C293DCD151124CD00BF5B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7C293DD2151124F700BF5B5E /* JLSectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSectionInfo.h; sourceTree = "<group>"; };
+		7C293DD3151124F700BF5B5E /* JLSectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSectionInfo.m; sourceTree = "<group>"; };
+		7C293DD6151124FF00BF5B5E /* DefaultCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultCellObject.h; sourceTree = "<group>"; };
+		7C293DD7151124FF00BF5B5E /* DefaultCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultCellObject.m; sourceTree = "<group>"; };
+		7C293DDB1511290900BF5B5E /* JLHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHeaderView.h; sourceTree = "<group>"; };
+		7C293DDC1511290900BF5B5E /* JLHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHeaderView.m; sourceTree = "<group>"; };
+		7C293DE2151135B600BF5B5E /* JLTableViewController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JLTableViewController-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +62,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7C293DB3151124CD00BF5B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C293DDF15112FA300BF5B5E /* libJLTableViewController.a in Frameworks */,
+				7C293DB9151124CD00BF5B5E /* UIKit.framework in Frameworks */,
+				7C293DBA151124CD00BF5B5E /* Foundation.framework in Frameworks */,
+				7C293DBC151124CD00BF5B5E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -35,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				7C293DA71511249600BF5B5E /* JLTableViewController */,
+				7C293DBD151124CD00BF5B5E /* SampleApp */,
 				7C293DA41511249600BF5B5E /* Frameworks */,
 				7C293DA31511249600BF5B5E /* Products */,
 			);
@@ -44,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				7C293DA21511249600BF5B5E /* libJLTableViewController.a */,
+				7C293DB6151124CD00BF5B5E /* SampleApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				7C293DA51511249600BF5B5E /* Foundation.framework */,
+				7C293DB8151124CD00BF5B5E /* UIKit.framework */,
+				7C293DBB151124CD00BF5B5E /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -61,15 +110,37 @@
 			children = (
 				7C293DAA1511249600BF5B5E /* JLTableViewController.h */,
 				7C293DAB1511249600BF5B5E /* JLTableViewController.m */,
-				7C293DA81511249600BF5B5E /* Supporting Files */,
+				7C293DD2151124F700BF5B5E /* JLSectionInfo.h */,
+				7C293DD3151124F700BF5B5E /* JLSectionInfo.m */,
+				7C293DD6151124FF00BF5B5E /* DefaultCellObject.h */,
+				7C293DD7151124FF00BF5B5E /* DefaultCellObject.m */,
+				7C293DDB1511290900BF5B5E /* JLHeaderView.h */,
+				7C293DDC1511290900BF5B5E /* JLHeaderView.m */,
+				7C293DE2151135B600BF5B5E /* JLTableViewController-Prefix.pch */,
 			);
 			path = JLTableViewController;
 			sourceTree = "<group>";
 		};
-		7C293DA81511249600BF5B5E /* Supporting Files */ = {
+		7C293DBD151124CD00BF5B5E /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				7C293DA91511249600BF5B5E /* JLTableViewController-Prefix.pch */,
+				7C293DC6151124CD00BF5B5E /* AppDelegate.h */,
+				7C293DC7151124CD00BF5B5E /* AppDelegate.m */,
+				7C293DC9151124CD00BF5B5E /* ViewController.h */,
+				7C293DCA151124CD00BF5B5E /* ViewController.m */,
+				7C293DCC151124CD00BF5B5E /* ViewController.xib */,
+				7C293DBE151124CD00BF5B5E /* Supporting Files */,
+			);
+			path = SampleApp;
+			sourceTree = "<group>";
+		};
+		7C293DBE151124CD00BF5B5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C293DC5151124CD00BF5B5E /* SampleApp-Prefix.pch */,
+				7C293DBF151124CD00BF5B5E /* SampleApp-Info.plist */,
+				7C293DC0151124CD00BF5B5E /* InfoPlist.strings */,
+				7C293DC3151124CD00BF5B5E /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -81,6 +152,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C293DD4151124F700BF5B5E /* JLSectionInfo.h in Headers */,
+				7C293DD8151124FF00BF5B5E /* DefaultCellObject.h in Headers */,
+				7C293DDD1511290900BF5B5E /* JLHeaderView.h in Headers */,
+				7C293DE3151135B600BF5B5E /* JLTableViewController-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +179,23 @@
 			productReference = 7C293DA21511249600BF5B5E /* libJLTableViewController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		7C293DB5151124CD00BF5B5E /* SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C293DCF151124CD00BF5B5E /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildPhases = (
+				7C293DB2151124CD00BF5B5E /* Sources */,
+				7C293DB3151124CD00BF5B5E /* Frameworks */,
+				7C293DB4151124CD00BF5B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleApp;
+			productName = SampleApp;
+			productReference = 7C293DB6151124CD00BF5B5E /* SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -111,7 +203,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = R/GA;
+				ORGANIZATIONNAME = "Joseph Lin";
 			};
 			buildConfigurationList = 7C293D9C1511249600BF5B5E /* Build configuration list for PBXProject "JLTableViewController" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -126,9 +218,22 @@
 			projectRoot = "";
 			targets = (
 				7C293DA11511249600BF5B5E /* JLTableViewController */,
+				7C293DB5151124CD00BF5B5E /* SampleApp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C293DB4151124CD00BF5B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C293DC2151124CD00BF5B5E /* InfoPlist.strings in Resources */,
+				7C293DCE151124CD00BF5B5E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C293D9E1511249600BF5B5E /* Sources */ = {
@@ -136,10 +241,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C293DAC1511249600BF5B5E /* JLTableViewController.m in Sources */,
+				7C293DD5151124F700BF5B5E /* JLSectionInfo.m in Sources */,
+				7C293DD9151124FF00BF5B5E /* DefaultCellObject.m in Sources */,
+				7C293DDE1511290900BF5B5E /* JLHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C293DB2151124CD00BF5B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C293DC4151124CD00BF5B5E /* main.m in Sources */,
+				7C293DC8151124CD00BF5B5E /* AppDelegate.m in Sources */,
+				7C293DCB151124CD00BF5B5E /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C293DC0151124CD00BF5B5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C293DC1151124CD00BF5B5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C293DCC151124CD00BF5B5E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C293DCD151124CD00BF5B5E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7C293DAD1511249600BF5B5E /* Debug */ = {
@@ -208,6 +345,31 @@
 			};
 			name = Release;
 		};
+		7C293DD0151124CD00BF5B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleApp/SampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SampleApp/SampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C293DD1151124CD00BF5B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleApp/SampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SampleApp/SampleApp-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -225,6 +387,14 @@
 			buildConfigurations = (
 				7C293DB01511249600BF5B5E /* Debug */,
 				7C293DB11511249600BF5B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C293DCF151124CD00BF5B5E /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C293DD0151124CD00BF5B5E /* Debug */,
+				7C293DD1151124CD00BF5B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
