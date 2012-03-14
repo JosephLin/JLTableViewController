@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'JLTableViewController' target in the 'JLTableViewController' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
